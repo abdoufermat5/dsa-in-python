@@ -1,4 +1,4 @@
-from empty import Empty
+from utils.empty import Empty
 
 
 class ArrayStack:

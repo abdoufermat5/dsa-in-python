@@ -1,6 +1,6 @@
 import random
 
-from empty import Empty
+from utils.empty import Empty
 
 
 class ArrayQueue:

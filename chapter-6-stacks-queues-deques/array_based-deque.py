@@ -1,5 +1,4 @@
-from empty import Empty
-import random
+from utils.empty import Empty
 
 
 class ArrayDeque:

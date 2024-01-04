@@ -1,4 +1,5 @@
-from base import Graph, Vertex, Edge, AdaptableHeapPriorityQueue, Partition
+from base import Graph, Vertex, Edge, Partition
+from chapter_9_priority_queues import AdaptableHeapPriorityQueue
 
 
 def mst_prim_jarnik(g: Graph):

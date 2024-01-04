@@ -1,4 +1,5 @@
-from base import Graph, Vertex, AdaptableHeapPriorityQueue
+from base import Graph, Vertex
+from chapter_9_priority_queues import AdaptableHeapPriorityQueue
 
 
 def simple_shortest_path(g: Graph, src: Vertex):

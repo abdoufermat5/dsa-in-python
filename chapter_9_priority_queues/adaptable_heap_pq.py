@@ -1,4 +1,4 @@
-from chapter_9_priority_queues import HeapPriorityQueue
+from .heap_pq import HeapPriorityQueue
 
 
 class AdaptableHeapPriorityQueue(HeapPriorityQueue):

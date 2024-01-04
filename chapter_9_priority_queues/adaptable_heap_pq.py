@@ -1,4 +1,4 @@
-from heap_pq import HeapPriorityQueue
+from chapter_9_priority_queues import HeapPriorityQueue
 
 
 class AdaptableHeapPriorityQueue(HeapPriorityQueue):
@@ -12,7 +12,13 @@ class AdaptableHeapPriorityQueue(HeapPriorityQueue):
             super().__init__(k, v)
             self._index = j
 
+        def __repr__(self):
+            return f"({self._key}, {self._value}, {self._index})"
+
         # override swap method
+    def __repr__(self):
+        return str(self._data)
+
     def _swap(self, i, j):
         super()._swap(i, j)  # perform the swap
         self._data[i]._index = i
@@ -58,3 +64,16 @@ class AdaptableHeapPriorityQueue(HeapPriorityQueue):
             self._bubble(j)  # reinstate the heap order property
 
         return loc._key, loc._value
+
+
+if __name__ == "__main__":
+    test = AdaptableHeapPriorityQueue()
+    test.add(1, "A")
+    test.add(2, "B")
+    test.add(3, "C")
+    test.add(-4, "D")
+    test.add(0, "E")
+    test.add(5, "F")
+    test.add(-1, "G")
+
+    print(test)

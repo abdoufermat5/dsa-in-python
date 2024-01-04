@@ -1,5 +1,5 @@
 from utils.empty import Empty
-from base import PriorityQueueBase
+from chapter_9_priority_queues import PriorityQueueBase
 
 
 class HeapPriorityQueue(PriorityQueueBase):

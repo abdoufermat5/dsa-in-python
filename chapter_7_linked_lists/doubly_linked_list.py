@@ -9,6 +9,9 @@ class Node:
         self.next = next
         self.prev = previous
 
+    def __repr__(self):
+        return f"Node({self.value})"
+
 
 class DoublyLinkedBase:
     def __init__(self):
@@ -75,6 +78,9 @@ class PositionalList(DoublyLinkedBase):
             self._container = container
             self._node = node
 
+        def __repr__(self):
+            return f"Position({self._node})"
+
         def element(self):
             return self._node.value
 
@@ -83,6 +89,9 @@ class PositionalList(DoublyLinkedBase):
 
         def __ne__(self, other):
             return not self == other
+
+    def __repr__(self):
+        return f"PositionalList({[p for p in self]})"
 
     def _validate(self, p):
         if not isinstance(p, self.Position):

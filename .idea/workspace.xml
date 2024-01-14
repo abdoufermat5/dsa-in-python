@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cd1f4b25-6131-4edd-aa4e-a22847c90c6f" name="Changes" comment="update readme.md">
+      <change afterPath="$PROJECT_DIR$/chapter_10_maps_hash_tables_skip_lists/app-compression.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_10_maps_hash_tables_skip_lists/app-cost-performance-database.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_10_maps_hash_tables_skip_lists/app-cyclic-hash.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_10_maps_hash_tables_skip_lists/app-word-count.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_10_maps_hash_tables_skip_lists/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_10_maps_hash_tables_skip_lists/data/alice-in-wonderland.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_10_maps_hash_tables_skip_lists/data/bucket-array-ht.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_10_maps_hash_tables_skip_lists/data/hash-function-exec.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_10_maps_hash_tables_skip_lists/data/insert-skip-list.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_10_maps_hash_tables_skip_lists/data/linear-probing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_10_maps_hash_tables_skip_lists/data/removal-skip-list.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_10_maps_hash_tables_skip_lists/data/running-times.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_10_maps_hash_tables_skip_lists/data/separate-chaining.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_10_maps_hash_tables_skip_lists/data/skip-search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_10_maps_hash_tables_skip_lists/probe_hash_map.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_10_maps_hash_tables_skip_lists/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_10_maps_hash_tables_skip_lists/separate_chaining_hash_map.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_10_maps_hash_tables_skip_lists/sorted_table_map.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_10_maps_hash_tables_skip_lists/unsorted_table_map.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2amrfY8ToJFj0eV1OL6dLVw4BfB" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.app-compression.executor": "Run",
+    "Python.app-cost-performance-database.executor": "Run",
+    "Python.app-cyclic-hash.executor": "Run",
+    "Python.app-word-count.executor": "Run",
+    "Python.unsorted_table_map.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/abdou/Documents/apps/dsa-in-python/chapter_10_maps_hash_tables_skip_lists/data",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "vcs.Git",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/chapter_10_maps_hash_tables_skip_lists/data" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.app-cost-performance-database">
+    <configuration name="app-compression" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="dsa-in-python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter_10_maps_hash_tables_skip_lists" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter_10_maps_hash_tables_skip_lists/app-compression.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="app-cost-performance-database" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="dsa-in-python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter_10_maps_hash_tables_skip_lists" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter_10_maps_hash_tables_skip_lists/app-cost-performance-database.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="app-cyclic-hash" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="dsa-in-python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter_10_maps_hash_tables_skip_lists" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter_10_maps_hash_tables_skip_lists/app-cyclic-hash.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="app-word-count" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="dsa-in-python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter_10_maps_hash_tables_skip_lists" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter_10_maps_hash_tables_skip_lists/app-word-count.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="unsorted_table_map" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="dsa-in-python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter_10_maps_hash_tables_skip_lists" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter_10_maps_hash_tables_skip_lists/unsorted_table_map.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.app-cost-performance-database" />
+        <item itemvalue="Python.app-compression" />
+        <item itemvalue="Python.app-cyclic-hash" />
+        <item itemvalue="Python.unsorted_table_map" />
+        <item itemvalue="Python.app-word-count" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-50da183f06c8-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13135.95" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cd1f4b25-6131-4edd-aa4e-a22847c90c6f" name="Changes" comment="" />
+      <created>1704934699375</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704934699375</updated>
+      <workItem from="1704934700509" duration="35048000" />
+      <workItem from="1705201789255" duration="13035000" />
+    </task>
+    <task id="LOCAL-00001" summary="update readme.md">
+      <option name="closed" value="true" />
+      <created>1704935183552</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1704935183552</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update readme.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="update readme.md" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/dsa_in_python$app_word_count.coverage" NAME="app-word-count Coverage Results" MODIFIED="1705028005220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_10_maps_hash_tables_skip_lists" />
+    <SUITE FILE_PATH="coverage/dsa_in_python$app_compression.coverage" NAME="app-compression Coverage Results" MODIFIED="1705113674730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_10_maps_hash_tables_skip_lists" />
+    <SUITE FILE_PATH="coverage/dsa_in_python$app_cost_performance_database.coverage" NAME="app-cost-performance-database Coverage Results" MODIFIED="1705206979851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_10_maps_hash_tables_skip_lists" />
+    <SUITE FILE_PATH="coverage/dsa_in_python$app_cyclic_hash.coverage" NAME="app-cyclic-hash Coverage Results" MODIFIED="1705113668219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_10_maps_hash_tables_skip_lists" />
+    <SUITE FILE_PATH="coverage/dsa_in_python$unsorted_table_map.coverage" NAME="unsorted_table_map Coverage Results" MODIFIED="1705032767544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_10_maps_hash_tables_skip_lists" />
+  </component>
+</project>

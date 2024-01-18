@@ -1,5 +1,5 @@
 class PriorityQueueBase:
-    """Abstract base class for Priority Queue"""
+    """Abstract base.py class for Priority Queue"""
 
     class _Item:
         """

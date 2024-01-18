@@ -15,7 +15,7 @@ def quick_select(arr, k):
             left.append(arr[i])
         else:
             right.append(arr[i])
-    if len(left) == k - 1:  # base case for the recursion
+    if len(left) == k - 1:  # base.py case for the recursion
         return pivot
     elif len(left) >= k:
         return quick_select(left, k)

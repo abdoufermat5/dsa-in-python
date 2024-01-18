@@ -1,5 +1,5 @@
 class EulerTour:
-    """Abstract base class for performing Euler tour of a tree
+    """Abstract base.py class for performing Euler tour of a tree
 
     _hook_previsit and _hook_postvisit may be overridden by subclasses.
     """
@@ -41,7 +41,7 @@ class EulerTour:
 
 
 class BinaryEulerTour(EulerTour):
-    """ Abstract base class for performing Euler tour of a binary tree0
+    """ Abstract base.py class for performing Euler tour of a binary tree0
 
     This version includes an additional _hook_invisit method that is called after the tour
     of the left subtree (if any), yet before the tour of the right subtree (if any).

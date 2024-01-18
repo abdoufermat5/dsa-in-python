@@ -4,26 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd1f4b25-6131-4edd-aa4e-a22847c90c6f" name="Changes" comment="update readme.md">
-      <change afterPath="$PROJECT_DIR$/chapter_10_maps_hash_tables_skip_lists/app-compression.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_10_maps_hash_tables_skip_lists/app-cost-performance-database.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_10_maps_hash_tables_skip_lists/app-cyclic-hash.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_10_maps_hash_tables_skip_lists/app-word-count.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_10_maps_hash_tables_skip_lists/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_10_maps_hash_tables_skip_lists/data/alice-in-wonderland.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_10_maps_hash_tables_skip_lists/data/bucket-array-ht.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_10_maps_hash_tables_skip_lists/data/hash-function-exec.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_10_maps_hash_tables_skip_lists/data/insert-skip-list.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_10_maps_hash_tables_skip_lists/data/linear-probing.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_10_maps_hash_tables_skip_lists/data/removal-skip-list.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_10_maps_hash_tables_skip_lists/data/running-times.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_10_maps_hash_tables_skip_lists/data/separate-chaining.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_10_maps_hash_tables_skip_lists/data/skip-search.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_10_maps_hash_tables_skip_lists/probe_hash_map.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_10_maps_hash_tables_skip_lists/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_10_maps_hash_tables_skip_lists/separate_chaining_hash_map.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_10_maps_hash_tables_skip_lists/sorted_table_map.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_10_maps_hash_tables_skip_lists/unsorted_table_map.py" afterDir="false" />
+    <list default="true" id="cd1f4b25-6131-4edd-aa4e-a22847c90c6f" name="Changes" comment="update chapter 10: make a module">
+      <change afterPath="$PROJECT_DIR$/chapter_11_search_trees/avl_tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_11_search_trees/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_11_search_trees/data/rotation-bst.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_11_search_trees/data/tree-search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_11_search_trees/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_10_maps_hash_tables_skip_lists/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_10_maps_hash_tables_skip_lists/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_12_sorting_selection/quick-select.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_12_sorting_selection/quick-select.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_14_graph_algorithms/dfs.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_14_graph_algorithms/dfs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_8_trees/app-euler-tours.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_8_trees/app-euler-tours.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_8_trees/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_8_trees/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_9_priority_queues/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_9_priority_queues/base.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,28 +51,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.app-compression.executor": "Run",
-    "Python.app-cost-performance-database.executor": "Run",
-    "Python.app-cyclic-hash.executor": "Run",
-    "Python.app-word-count.executor": "Run",
-    "Python.unsorted_table_map.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/abdou/Documents/apps/dsa-in-python/chapter_10_maps_hash_tables_skip_lists/data",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "vcs.Git",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.app-compression.executor&quot;: &quot;Run&quot;,
+    &quot;Python.app-cost-performance-database.executor&quot;: &quot;Run&quot;,
+    &quot;Python.app-cyclic-hash.executor&quot;: &quot;Run&quot;,
+    &quot;Python.app-word-count.executor&quot;: &quot;Run&quot;,
+    &quot;Python.unsorted_table_map.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/abdou/Documents/apps/dsa-in-python/chapter_11_search_trees/data&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/chapter_11_search_trees/data" />
       <recent name="$PROJECT_DIR$/chapter_10_maps_hash_tables_skip_lists/data" />
     </key>
   </component>
@@ -225,7 +219,8 @@
       <option name="presentableId" value="Default" />
       <updated>1704934699375</updated>
       <workItem from="1704934700509" duration="35048000" />
-      <workItem from="1705201789255" duration="13035000" />
+      <workItem from="1705201789255" duration="26652000" />
+      <workItem from="1705412691189" duration="2110000" />
     </task>
     <task id="LOCAL-00001" summary="update readme.md">
       <option name="closed" value="true" />
@@ -235,7 +230,23 @@
       <option name="project" value="LOCAL" />
       <updated>1704935183552</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update chapter 8: make a module">
+      <option name="closed" value="true" />
+      <created>1705287450711</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705287450711</updated>
+    </task>
+    <task id="LOCAL-00003" summary="update chapter 10: make a module">
+      <option name="closed" value="true" />
+      <created>1705287575643</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1705287575643</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,7 +254,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update readme.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="update readme.md" />
+    <MESSAGE value="update chapter 8: make a module" />
+    <MESSAGE value="update chapter 10: make a module" />
+    <option name="LAST_COMMIT_MESSAGE" value="update chapter 10: make a module" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/dsa_in_python$app_word_count.coverage" NAME="app-word-count Coverage Results" MODIFIED="1705028005220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_10_maps_hash_tables_skip_lists" />

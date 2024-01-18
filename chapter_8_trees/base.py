@@ -1,9 +1,9 @@
-# abstract base class for a tree
+# abstract base.py class for a tree
 from queue import Queue
 
 
 class Tree:
-    """abstract base class representing a tree structure no order imposed"""
+    """abstract base.py class representing a tree structure no order imposed"""
 
     # Position class
     class Position:
@@ -127,7 +127,7 @@ class Tree:
 
 
 class BinaryTree(Tree):
-    """Abstract base class representing a binary tree structure"""
+    """Abstract base.py class representing a binary tree structure"""
 
     # Additional abstract methods
     def left(self, p):

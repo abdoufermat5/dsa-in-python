@@ -29,7 +29,7 @@ class MapBase(MutableMapping):
 
 
 class HashMapBase(MapBase):
-    """Abstract base class for map using hash-table with MAD compression."""
+    """Abstract base.py class for map using hash-table with MAD compression."""
 
     def __init__(self, cap=11, p=109345121):
         """Create an empty hash table map"""

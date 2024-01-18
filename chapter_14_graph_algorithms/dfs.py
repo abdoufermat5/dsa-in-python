@@ -19,14 +19,14 @@ def simpleDFS(g: Graph, u: Vertex, discovered):
 
 def simpleDFS_2(g, u, v, discovered):
     """Same as above but this time we check if there's a path between two vertices in the graph."""
-    if u == v:  # base case: we have reached the destination vertex
+    if u == v:  # base.py case: we have reached the destination vertex
         return True
     for e in g.incident_edges(u):
         x = e.opposite(u)
         if not discovered.get(x, False):
             discovered[x] = True
             if simpleDFS_2(g, x, v, discovered):
-                # second base case destination vertex is the last visited vertex
+                # second base.py case destination vertex is the last visited vertex
                 return True
     return False
 
